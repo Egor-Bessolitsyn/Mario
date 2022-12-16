@@ -135,7 +135,7 @@ if __name__ == '__main__':
     player_group = pygame.sprite.Group()
 
     start_screen()
-    player, level_x, level_y = generate_level(load_level('level01.txt'))
+    player, level_x, level_y = generate_level(load_level('data/level01.txt'))
     size = (level_x + 1) * tile_width, (level_y + 1) * tile_height
     screen = pygame.display.set_mode(size)
     running = True
